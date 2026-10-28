@@ -1,9 +1,7 @@
-import React from 'react'
+import AuthContainer from './AuthContainer'
 
 const SignupForm = () => {
-  return (
-    <div>SignupForm</div>
-  )
+    return <AuthContainer initialMode="signup" />
 }
 
 export default SignupForm
